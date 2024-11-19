@@ -1,2 +1,2 @@
 primesieve
-brew
+homebrew
