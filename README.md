@@ -1,3 +1,3 @@
 # Prime Number Stuff
 
-This section was msde possible by [Primesieve](https://github.com/kimwalisch/primesieve)
+This section was made possible by [Primesieve](https://github.com/kimwalisch/primesieve)
