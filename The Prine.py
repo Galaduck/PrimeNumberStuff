@@ -9,3 +9,4 @@ for i in range(int(attempts)):
 
     if sympy.isprime(MabyePrime) == True:
         print(MabyePrime)
+        print(" ")
