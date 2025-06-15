@@ -14,7 +14,15 @@ for i in range(int(attempts)):
 
 
 if primecount == 0:
-    print("Sorry no primes were found")
+    print("No primes were found. :(")
+
+if primecount == 1:
+    print("1 prime was found. :)")
+
+
+if primecount <= 10:
+    print(primecount, "primes were found :D")
+
 
 else:
-    print(primecount, "primes were found")
+    print(primecount, "primes were found >.>")
