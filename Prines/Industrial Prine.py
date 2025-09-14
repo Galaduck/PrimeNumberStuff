@@ -5,6 +5,14 @@
 # I am not responsible for the accuracy of the primes from this code
 import random
 
+
+prime_list = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
+, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199
+, 211, 223, 227, 229, 233, 239, 241, 251, 257            
+              ]
+
+
+
 def power(base, exp, mod) :
     res = 1
     base %= mod  
@@ -41,9 +49,11 @@ low_digit = int(prime_length)-2
 
 for i in range(int(trials)):
     check_number = random.randint(10**int(low_digit), 10**int(high_digit) )
-
-    if check_number % 2 == 0:
-        a = 1
+    
+    for x in prime_list:
+        if check_number % x:
+            a = 1
+    
 
     base = random.randint(1, check_number-1)
 
